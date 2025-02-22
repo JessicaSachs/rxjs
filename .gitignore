@@ -37,3 +37,5 @@ integration/import/**/operators.json
 
 
 .nx/cache
+
+.env.local

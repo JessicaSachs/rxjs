@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "types": ["node", "mocha", "@wdio/globals"],
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "target": "ES2022",
+        "noEmit": true
+    },
+    "include": [
+        "./**/*.ts",
+        "./wpt.spec.mts",
+        "./**/*.mts"
+    ]
+} 

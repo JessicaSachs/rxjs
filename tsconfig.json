@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "types": ["node"],
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "target": "ES2022",
+        "noEmit": true
+    },
+    "include": [
+        "./wdio.conf.ts",
+        "./wdio.local.conf.ts",
+    ]
+} 
