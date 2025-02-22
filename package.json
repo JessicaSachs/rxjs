@@ -12,6 +12,7 @@
       "**/core-js"
     ]
   },
+  "type": "module",
   "license": "Apache-2.0",
   "engines": {
     "node": "^18.13.0 || ^20.9.0"
@@ -19,6 +20,7 @@
   "packageManager": "yarn@1.22.21",
   "scripts": {
     "prepare-packages": "yarn nx test @rxjs/observable && yarn nx run-many -t build,lint,test:circular,dtslint,copy_common_package_files --exclude rxjs.dev",
+    "test:wpt": "./wpt run chrome dom/observable --inject-script=rxjs.js --log-html=out.html",
     "release": "node scripts/release.js"
   },
   "devDependencies": {
@@ -57,4 +59,3 @@
     "*.{js,css,md}": "prettier --write"
   }
 }
-
