@@ -8,7 +8,8 @@
     },
     "include": [
         "./**/*.ts",
-        "./wpt.spec.mts",
-        "./**/*.mts"
+        "./**/*.mts",
+        "./**/*.spec.ts",
+        "./**/*.spec.mts"
     ]
 } 

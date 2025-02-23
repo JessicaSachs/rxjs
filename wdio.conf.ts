@@ -45,7 +45,7 @@ export const config: Options.Testrunner = {
         }
     },
     specs: [
-        './tests/wpt.spec.ts'
+        './tests/**/*.spec.{mts,ts}'
     ],
     exclude: [],
     maxInstances: 1, // Run tests sequentially for better debugging
